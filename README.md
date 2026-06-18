@@ -1,16 +1,12 @@
-﻿# website-upload-854-126
+# 最新电影-最新影片合集-高清电影免费在线观看
 
-Batch 126 of 50. Contains extracted static website versions. The original zip files are not committed.
+这是根据上传素材生成的纯静态电影网站。
 
-| Directory | Source zip |
-| --- | --- |
-| version-1251 | project-bolt-sb1-ep2ucv48-chatgpt (1) - from-a-20260526-121348-0374.zip |
-| version-1252 | project-bolt-sb1-ep2ucv48-chatgpt (1).zip |
-| version-1253 | project-bolt-sb1-ep2ucv48-chatgpt (1)__1.zip |
-| version-1254 | project-bolt-sb1-ep2ucv48-chatgpt (1)__2.zip |
-| version-1255 | project-bolt-sb1-epbwt8cb - 副本-chatgpt (1) - from-a-20260526-121348-0375.zip |
-| version-1256 | project-bolt-sb1-epbwt8cb - 副本-chatgpt (1).zip |
-| version-1257 | project-bolt-sb1-epbwt8cb-chatgpt (1) - from-a-20260526-121348-0376.zip |
-| version-1258 | project-bolt-sb1-epbwt8cb-chatgpt (1).zip |
-| version-1259 | project-bolt-sb1-epbwt8cb-chatgpt (1)__1.zip |
-| version-1260 | project-bolt-sb1-eph59ml3 - 副本-chatgpt (1).zip |
+- 实际解析影片数量：2000
+- 详情页数量：2000
+- 分类页数量：21
+- 首页、分类页、排行榜页、搜索页、详情页均已插入百度统计代码
+- 影片封面和 Hero 图片引用网站根目录的 `1.jpg` 到 `150.jpg`
+- 播放器使用 HLS 初始化逻辑，默认绑定公开 m3u8 演示源；正式部署时可在 `assets/site.js` 中替换为你的正式播放源
+
+部署时将 ZIP 解压到网站根目录即可。如果已有 `1.jpg` 到 `150.jpg`，请放在与 `index.html` 同级的位置。
